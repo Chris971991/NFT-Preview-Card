@@ -79,7 +79,7 @@ Started with a basic HTML boilerplate with the use of VS Code and started workin
 
 ## Author
 
-- Website - Christopher Carruther (website coming soon)
+- Website - Christopher Carruther (https://github.com/Chris971991)
 - Frontend Mentor - @carrumbum (https://www.frontendmentor.io/profile/carrumbum)
 
 ## Acknowledgments
