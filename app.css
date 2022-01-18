@@ -42,7 +42,7 @@ main {
 
 .card {
   height: 38rem;
-  width: 21.9rem;
+  width: 22rem;
   padding: 1.6rem;
   background-color: hsl(216, 50%, 16%);
   border-radius: 10px;
@@ -92,13 +92,13 @@ main {
   color: hsl(228, 45%, 44%);
 }
 
-.card-info h1 {
+.card-info span {
   color: white;
   font-size: 1.4rem;
   font-weight: 600;
 }
 
-.card-info h1:hover {
+.card-info span:hover {
   color: hsl(178, 100%, 50%);
   -o-transition: 0.4s;
   -ms-transition: 0.4s;
