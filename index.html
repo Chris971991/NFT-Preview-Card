@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="app.css" />
 
@@ -17,60 +21,57 @@
   </head>
   <body>
     <main>
-      <section class="card-container">
-        <article class="card">
-          <figure class="card-image">
-            <img src="./images/image-equilibrium.jpg" alt="Cube" />
-            <div class="card-image-overlay">
-              <object
-                class="eye-svg"
-                data="images/icon-view.svg"
-                alt="eye"
-              ></object>
+      <div class="row">
+        <div class="mainContainer">
+          <div class="container-fluid py-2">
+            <img
+              src="./images/image-equilibrium.jpg"
+              alt=""
+              class="img-fluid mt-3"
+            />
+            <h1 class="display-5 my-4">Equilibrium #3429</h1>
+            <p>Our equilibrium collection promotes balance and calm</p>
+            <div class="row">
+              <div class="col-6 eth d-flex align-items-center">
+                <img
+                  src="./images/icon-ethereum.svg"
+                  alt=""
+                  class="img-fluid pe-2"
+                />
+                0.041 ETH
+              </div>
+              <div
+                class="col-6 d-flex justify-content-end align-items-center time"
+              >
+                <img
+                  src="./images/icon-clock.svg"
+                  alt=""
+                  class="img-fluid pe-2"
+                />
+                3 days left
+              </div>
             </div>
-          </figure>
-          <section class="card-info">
-            <a href="#" alt=""><h1>Equilibrium #3429</h1></a>
-            <p>Our Equilibrium collection promotes blanace and calm.</p>
-          </section>
-          <section class="extra-info">
-            <div class="eth-container">
-              <object
-                class="eth-svg"
-                data="images/icon-ethereum.svg"
-                alt="Ethereum"
-              ></object>
-              <div class="currency">0.041 ETH</div>
+            <hr />
+            <div class="row d-flex align-items-center pb-2">
+              <div class="col-2">
+                <img
+                  src="./images/image-avatar.png"
+                  alt=""
+                  class="img-fluid rounded-circle border"
+                />
+              </div>
+              <div class="col-auto d-flex aligns-items-center py-2">
+                <p>Creation of <span>Jules Wyvern</span></p>
+              </div>
             </div>
-            <div class="time-container">
-              <object
-                class="time-svg"
-                data="images/icon-clock.svg"
-                alt="Clock"
-              ></object>
-              <div class="time">3 days left</div>
-            </div>
-          </section>
-          <hr />
-          <section class="author">
-            <div class="avatar">
-              <img src="./images/image-avatar.png" alt="Picture of Author" />
-            </div>
-            <div class="author-info">
-              Creation of <span><a href="#">Jules Wyvern</a></span>
-            </div>
-          </section>
-        </article>
-      </section>
-    </main>
-    <footer>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by
-        <a href="https://github.com/Chris971991">Christopher Carruthers</a>.
+          </div>
+        </div>
       </div>
-    </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
