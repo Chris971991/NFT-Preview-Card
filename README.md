@@ -45,7 +45,6 @@ Started with a basic HTML boilerplate with the use of VS Code and started workin
 - The use of transitions and display property choices.
 - Using multiple containers to make easier control of the desired look.
 - Responsive design workflow.
-- Using the object element instead of the img to display SVG files.
 - Hovering over an image and changing its appearance.
 - The BEM naming convention
 
