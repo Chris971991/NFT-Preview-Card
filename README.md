@@ -35,9 +35,10 @@ Started with a basic HTML boilerplate with the use of VS Code and started workin
 
 - Microsoft Edge
 - VS Code
-- Semantic HTML5 markup
+- BEM class naming convention
 - CSS custom properties
 - Flexbox
+- Sass/Scss
 
 ### What I learned
 
@@ -46,36 +47,11 @@ Started with a basic HTML boilerplate with the use of VS Code and started workin
 - Responsive design workflow.
 - Using the object element instead of the img to display SVG files.
 - Hovering over an image and changing its appearance.
-
-```html - using object instead of img
-<object class="eye-svg" data="images/icon-view.svg"></object>
-```
-
-```css - hovering over an image to change it's appearance
-.card-image-overlay {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-  border-radius: 6px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: hsl(178, 100%, 50%);
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out;
-  cursor: pointer;
-}
-```
+- The BEM naming convention
 
 ### Continued development
 
-- Get more comfortable with the display property and have a deeper understanding of what each property attribute can chieve.
-
-- More practice in hovering over items and images.
-
-- Repeat process with different designs without the need for "Googling".
+- This have been redeveloped as I have been learning. I feel as though this small project has reached it's peak.
 
 ## Author
 

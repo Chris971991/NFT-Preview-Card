@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -16,61 +14,52 @@
     <title>Frontend Mentor Challenge | NFT preview card component</title>
   </head>
   <body>
-    <main>
-      <section class="card-container">
-        <article class="card">
-          <figure class="card-image">
-            <img src="./images/image-equilibrium.jpg" alt="Cube" />
-            <div class="card-image-overlay">
-              <object
-                class="eye-svg"
-                data="images/icon-view.svg"
-                alt="eye"
-              ></object>
-            </div>
-          </figure>
-          <section class="card-info">
-            <a href="#" alt=""><h1>Equilibrium #3429</h1></a>
-            <p>Our Equilibrium collection promotes blanace and calm.</p>
-          </section>
-          <section class="extra-info">
-            <div class="eth-container">
-              <object
-                class="eth-svg"
-                data="images/icon-ethereum.svg"
-                alt="Ethereum"
-              ></object>
-              <div class="currency">0.041 ETH</div>
-            </div>
-            <div class="time-container">
-              <object
-                class="time-svg"
-                data="images/icon-clock.svg"
-                alt="Clock"
-              ></object>
-              <div class="time">3 days left</div>
-            </div>
-          </section>
-          <hr />
-          <section class="author">
-            <div class="avatar">
-              <img src="./images/image-avatar.png" alt="Picture of Author" />
-            </div>
-            <div class="author-info">
-              Creation of <span><a href="#">Jules Wyvern</a></span>
-            </div>
-          </section>
-        </article>
-      </section>
-    </main>
-    <footer>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by
-        <a href="https://github.com/Chris971991">Christopher Carruthers</a>.
+    <div class="card">
+      <div class="card-img__holder">
+        <img
+          class="card-img"
+          src="./images/image-equilibrium.jpg"
+          alt="Etherium"
+        />
+        <div class="card-img__overlay">
+          <img src="./images/icon-view.svg" alt="View" class="card-img__icon" />
+        </div>
       </div>
-    </footer>
+      <div class="card-content">
+        <h1 class="card-title">Equilibrium #3429</h1>
+        <p class="card-desc">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="card-details">
+          <span class="card-cost"
+            ><img
+              src="./images/icon-ethereum.svg"
+              alt=""
+              class="card-cost__icon"
+            />
+            0.041 ETH</span
+          >
+          <span class="card-time"
+            ><img
+              src="./images/icon-clock.svg"
+              alt=""
+              class="card-time__icon"
+            />
+            3 days left</span
+          >
+        </div>
+        <hr />
+        <div class="card-footer">
+          <img
+            src="./images/image-avatar.png"
+            alt=""
+            class="card-footer__img"
+          />
+          <p class="card-footer__desc">
+            Creation of <span class="card-footer__author">Jules Wyvern</span>
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
