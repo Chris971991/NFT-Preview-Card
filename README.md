@@ -54,8 +54,8 @@ Started with a basic HTML boilerplate with the use of VS Code and started workin
 
 ## Author
 
-- Website - Christopher Carruther (https://github.com/Chris971991)
-- Frontend Mentor - @carrumbum (https://www.frontendmentor.io/profile/carrumbum)
+- Website - Christopher Carruthers (https://github.com/Chris971991)
+- Frontend Mentor - @Chris971991 (https://www.frontendmentor.io/profile/Chris971991)
 
 ## Acknowledgments
 
